@@ -56,3 +56,9 @@ Things you may want to cover:
 
 * add to application.css 
 	*= require font-awesome
+
+* in the gem file add ggem 'dotenv-rails', :groups => [:development, :test]
+# include these environment variables securely, then create the file .env that will store our environment variables:
+# https://rails.devcamp.com/ruby-gem-walkthroughs/payment/how-to-integrate-stripe-payments-in-a-rails-application-charges
+
+* the .env file is ignored
