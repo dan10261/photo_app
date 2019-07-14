@@ -12,6 +12,7 @@ gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 gem 'font-awesome-rails'
+gem 'stripe'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -39,6 +40,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
+# include these environment variables securely, then create the file .env that will store our environment variables:
+# https://rails.devcamp.com/ruby-gem-walkthroughs/payment/how-to-integrate-stripe-payments-in-a-rails-application-charges
+gem 'dotenv-rails', :groups => [:development, :test]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
