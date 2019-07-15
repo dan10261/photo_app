@@ -66,3 +66,12 @@ Things you may want to cover:
 # https://rails.devcamp.com/ruby-gem-walkthroughs/payment/how-to-integrate-stripe-payments-in-a-rails-application-charges
 
 * the .env file is ignored
+
+
+* *** upload images ****
+* 
+* Generate the Image resource:
+* rails generate scaffold Image name:string picture:string user:references
+* rails g bootstrap:themed Images
+
+
